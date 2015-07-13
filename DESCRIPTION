@@ -2,8 +2,8 @@ Package: pzfxparser
 Title: Functions to read GraphPad Prism pzfx files
 Version: 0.0.0.9000
 Authors@R: person("Burak", "Kutlu", email = "bkutluisb@gmail.com", role = c("aut", "cre"))
-Description: GraphPad Prism is a popular statistical software for biological data tables. 
-	The provided functions will help you parse the tables and bring the data in your 
+Description: GraphPad Prism is a popular statistical software for biological data tables.
+	The provided functions will help you parse the tables and bring the data in your
 	R environment.
 Depends: R (>= 3.2.1)
 License: Artistic-2.0
@@ -13,3 +13,4 @@ Imports: XML,
 Suggests: knitr,
     testthat
 VignetteBuilder: knitr
+URL: http://github.com/bkutlu/pzfxparser
